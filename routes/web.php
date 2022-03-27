@@ -20,8 +20,8 @@ Route::get('/', function () {
 
 
 // All Listings
-Route::get('/{property_type}/{listing_type}/', function() {
-    return view('welcome');
+Route::get('/{property_type}/{listing_type}/{city}', function() {
+    return view('pages/listings');
 });
 
 // Single Listing
@@ -41,11 +41,11 @@ Route::get('/register', function() {
 
 
 // User Saved Listings
-Route::get('/acount/saved', function() {
-    return view('welcome');
+Route::get('/account/saved', function() {
+    return view('pages/saved-listings');
 });
 
 // User Saved Listings
-Route::get('/acount/show-status', function() {
-    return view('welcome');
+Route::get('/account/show-status', function() {
+    return view('pages/show-status');
 });
