@@ -1,0 +1,56 @@
+.account-layout{
+
+    .request-list {
+        h2 {
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        &__info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__details {
+            font-size: 1.4rem;
+            color: #69718b;
+        }
+
+
+        &__info-title {
+            font-weight: 700;
+        }
+
+        &__info-status {
+            padding: 10px 15px;
+
+            &--success {
+                background: lightgreen;
+                font-weight: 700;
+            }
+
+            &--cancelled {
+                background: orange;
+                font-weight: 700;
+            }
+            &--sold {
+                font-weight: 700;
+                color: white;
+                background: red;
+            }
+        }
+    }
+
+  }
