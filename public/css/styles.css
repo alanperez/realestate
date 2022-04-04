@@ -6837,6 +6837,10 @@ progress {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  color: black;
+}
+.header__logo:hover {
+  color: black;
 }
 .header__menu {
   display: flex;
@@ -6867,10 +6871,17 @@ progress {
   border: 1px solid #234dd4;
   margin-right: 1.5rem;
   text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 .header__account-link--anchor {
   margin-right: 1.5rem;
   text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.header__account-link--anchor:hover {
+  color: black;
 }
 
 .hero {
@@ -6950,7 +6961,6 @@ progress {
   position: relative;
   display: block;
   line-height: 1.5;
-  color: transparent;
   -webkit-text-stroke: 1px black;
   -webkit-user-select: none;
      -moz-user-select: none;
