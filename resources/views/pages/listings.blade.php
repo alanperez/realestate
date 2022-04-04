@@ -1,10 +1,10 @@
 @extends ('layouts.main')
-
+@section('page-title', 'Listings - Max Realtor')
 @section('content')
 <div class="listings-page">
     <div class="listings-city">
       <img class="lisitings-city__img" src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="house">
-      <h1 class="listings-city__title">South Beach</h1>
+      <h1 class="listings-city__title">Available Homes</h1>
     </div>
     <div class="listings-filter">
       <div class="listings-filter__wrapper">

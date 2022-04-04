@@ -1,0 +1,54 @@
+.banner {
+    background: rgba(0, 0, 0,0.55) url('https://buildwithatlas.com/wp-content/uploads/2020/12/shutterstock_1549119938.jpg');
+    background-blend-mode: darken;
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &__conent-image {
+        
+    }
+.banner-content {
+    .btn {
+        cursor: pointer;
+        background-color: #f5f4f0;
+        border: 2px solid #f5f4f0;
+        color: #000000;
+        text-decoration: none;
+    }
+}
+    &__heading {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    &__subheadtext{
+        margin: 20px 0;
+    }
+
+    &__testimonial-para {
+        font-size: 1.3rem;
+        color: whitesmoke;
+        margin-top: 2rem;
+        text-align: center;
+    }
+&__testimonial-btn {
+    display: flex;
+    justify-content: center;
+ 
+    font-size: 1.3rem;
+    padding: 20px;
+    &:hover {
+        color: white;
+        background: blue;
+    }
+
+}
+&__testimonial-anchor {
+    color: red;
+}
+
+
+}
