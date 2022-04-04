@@ -6,5 +6,19 @@
 @use './layouts/account-layout.scss';
 @use './components/header.scss';
 @use './components/hero.scss';
+@use './components/about.scss';
+@use './components/banner.scss';
+@use './components/footer.scss';
 @use './pages/listings.scss';
 @use './pages/show-status.scss';
+@use './pages/auth.scss';
+@use './pages/single-listing.scss';
+
+
+
+.error-sub-text {
+    
+    color: red;
+    font-size: .9rem;
+    padding: 10px 0;
+}

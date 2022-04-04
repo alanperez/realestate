@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Facade;
+
 return [
 
     /*
@@ -188,8 +190,13 @@ return [
     |
     */
 
-    'aliases' => [
+    // 'aliases' => Facade::defaultAliases()->merge([
+    //     'Helper' => App\Helper\Helper::class,
+    // ])->toArray(),
 
+
+    'aliases' => [
+        'Helper' => App\Helper\Helper::class,
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
