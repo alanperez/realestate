@@ -121,3 +121,57 @@
       
     
   }
+
+  @media(max-width: 800px){
+    .hero {
+      padding: 0;
+
+      &__images {
+        display: block;
+        height: 350px;
+      }
+
+      &__title, &__subtitle {
+        font-size: 2rem;
+        color: #234dd4;
+      }
+
+      &__indicator {
+        // position: relative;
+        // text-align: right;
+        position: absolute;
+        padding: 0;
+        display: flex;
+      }
+      &__indicator-item {
+        text-align: center;
+        display: block;
+      }
+      &__indicator-number {
+        font-size: 1.5rem;
+        padding-right: 2rem;
+      }
+      &__indicator-text {
+        font-size: 1.5rem;
+        font-weight: 400;
+        // text-align: right;
+      }
+    }
+
+
+    .about {
+      margin-top: 1rem;
+
+     &__title {
+        text-align: center;
+        font-size: 1.3rem;
+        // background-color: red;
+      }
+
+      &__subtext {
+        font-size: .6rem;
+        line-height: 1.7;
+      }
+    }
+
+  }

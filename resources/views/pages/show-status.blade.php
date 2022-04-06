@@ -1,7 +1,7 @@
 @extends ('layouts.account')
 
 
-@section('page-title', 'Request Status - Max Realtor')
+@section('page-title', 'Request Status - Dallas Builders')
 @section('page-bg', 'https://images.pexels.com/photos/5874584/pexels-photo-5874584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
 
 @section('content')
@@ -10,8 +10,8 @@
     @for ($i = 0; $i < 10; $i++)
     <div class="request-list__wrapper">
         <div>
-          <h3>4321 Davist St </h3>
-        <span class="request-list__details"><i class="fa-solid fa-bed"></i> 4 <i class="fa-solid fa-bath"></i> 3 <i class="fa-solid fa-ruler"></i> 2440 SQFT</span>
+          <h3>8600 Thackery St </h3>
+        <span class="request-list__details"><i class="fa-solid fa-bed"></i> 5 <i class="fa-solid fa-bath"></i> 5.2 <i class="fa-solid fa-ruler"></i> 7260 SQFT</span>
         </div>
         
         <div class="request-list__info">

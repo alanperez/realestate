@@ -19,7 +19,7 @@
                                 process. They had a personal touch. They made the experience unique to me.</p>
                         </div>
                         <div class="banner__testimonial-btn ">
-                            <button href="banner__testimonial-anchor" class="btn">View More Testimonials</button>
+                            <button href="" class="banner__testimonial-anchor">View More Testimonials</button>
                         </div>
                     </div>
                 </div>

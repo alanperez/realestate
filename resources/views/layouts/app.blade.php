@@ -34,3 +34,6 @@
         </div>
     </body>
 </html>
+
+
+<script src="../../../public/js/jquery.min.js"

@@ -12,8 +12,8 @@
 .banner-content {
     .btn {
         cursor: pointer;
-        background-color: #f5f4f0;
-        border: 2px solid #f5f4f0;
+        background-color: white;
+        // border: 2px solid white;
         color: #000000;
         text-decoration: none;
     }
@@ -42,12 +42,17 @@
     padding: 20px;
     &:hover {
         color: white;
-        background: blue;
+        // background: blue;
     }
 
 }
 &__testimonial-anchor {
-    color: red;
+    // color: red;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+    font-size: 1rem;
 }
 
 

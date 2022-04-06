@@ -75,7 +75,7 @@
                     <div class="logo"><img src="assets/static/images/logo.png" alt=""></div>
                   </div>
                   <div class="peer peer-greed">
-                    <h5 class="lh-1 mB-0 logo-text" style="color: red;">Bryant Realty</h5>
+                    <h5 class="lh-1 mB-0 logo-text" style="color: red;">Dallas Builders</h5>
                   </div>
                 </div>
               </a></div>
