@@ -18,7 +18,7 @@
                         $350,000
                     </span>
                     <span class="listings-properties__item-details">
-                        <i class="fa-solid fa-bed"></i> 4 <i class="fa-solid fa-bath"></i> 3 <i class="fa-solid fa-ruler-triangle"></i> <i class="fa-solid fa-ruler"></i> 2440 SQFT
+                        <i class="fa-solid fa-bed"></i> 5 <i class="fa-solid fa-bath"></i> 5.2 <i class="fa-solid fa-ruler-triangle"></i> <i class="fa-solid fa-ruler"></i> 7260 SQFT
                     </span>
   
                     <span class="listings-properties__item-address">

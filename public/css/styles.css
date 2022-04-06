@@ -6842,6 +6842,73 @@ progress {
 .header__logo:hover {
   color: black;
 }
+.header .toggle-button {
+  position: absolute;
+  top: 1.55rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+}
+.header .toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .header .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .header__logo {
+    font-size: 1.2rem;
+  }
+  .header .toggle-button {
+    display: flex;
+  }
+  .header .header__menu {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  .header .header__menu a {
+    padding: 0.5rem 1rem;
+  }
+  .header .header__menu .header__menu-link {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header .header__menu .header__account-link {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header .header__account {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  .header .header__account a {
+    padding: 0.5rem 1rem;
+  }
+  .header .header__account-link--anchor {
+    margin-right: 0;
+  }
+  .header .header__menu.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .header__account.active {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .header__menu {
   display: flex;
   justify-content: center;
@@ -6992,6 +7059,48 @@ progress {
   -webkit-text-stroke: 1px transparent;
 }
 
+@media (max-width: 800px) {
+  .hero {
+    padding: 0;
+  }
+  .hero__images {
+    display: block;
+    height: 350px;
+  }
+  .hero__title, .hero__subtitle {
+    font-size: 2rem;
+    color: #234dd4;
+  }
+  .hero__indicator {
+    position: absolute;
+    padding: 0;
+    display: flex;
+  }
+  .hero__indicator-item {
+    text-align: center;
+    display: block;
+  }
+  .hero__indicator-number {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+  }
+  .hero__indicator-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .about {
+    margin-top: 1rem;
+  }
+  .about__title {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .about__subtext {
+    font-size: 0.6rem;
+    line-height: 1.7;
+  }
+}
 .about {
   margin-top: 2rem;
   padding: 50px 0;
@@ -7042,6 +7151,12 @@ progress {
   max-width: 100%;
 }
 
+@media (max-width: 800px) {
+  .photo-gallery .card-img-top {
+    height: 200px;
+    width: 200px;
+  }
+}
 .banner {
   background: rgba(0, 0, 0, 0.55) url("https://buildwithatlas.com/wp-content/uploads/2020/12/shutterstock_1549119938.jpg");
   background-blend-mode: darken;
@@ -7053,8 +7168,7 @@ progress {
 }
 .banner .banner-content .btn {
   cursor: pointer;
-  background-color: #f5f4f0;
-  border: 2px solid #f5f4f0;
+  background-color: white;
   color: #000000;
   text-decoration: none;
 }
@@ -7081,10 +7195,13 @@ progress {
 }
 .banner__testimonial-btn:hover {
   color: white;
-  background: blue;
 }
 .banner__testimonial-anchor {
-  color: red;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+  font-size: 1rem;
 }
 
 footer {
@@ -7120,6 +7237,7 @@ footer .footer_wrapper_upper .footer_about .logo {
 footer .footer_wrapper_upper .footer_about .logo a {
   margin: 0 0 10px 0;
   color: #000;
+  text-decoration: none;
 }
 footer .footer_wrapper_upper .footer_about .logo a span.logo-span {
   font-weight: 600;
@@ -7284,6 +7402,9 @@ footer .footer_wrapper_down .footer_copyright p {
 .listings-page .listings-filter .fa-angle-down {
   margin-left: 1rem;
 }
+.listings-page .listings-properties {
+  margin-bottom: 100px;
+}
 .listings-page .listings-properties img {
   width: 100%;
   height: 200px;
@@ -7355,6 +7476,20 @@ footer .footer_wrapper_down .footer_copyright p {
   display: block;
 }
 
+@media (max-width: 800px) {
+  .listings-page .listings-filter .listings-filter__wrapper {
+    display: block;
+    transform: none;
+  }
+  .listings-page .listings-filter .listings-filter__wrapper .listings-filter__option {
+    display: flex;
+    justify-content: center;
+  }
+  .listings-page .listings-filter .listings-filter__wrapper .listings-filter__option .fa-caret-down {
+    margin-left: 1rem;
+    text-align: center;
+  }
+}
 .account-layout .request-list h2 {
   font-weight: 700;
   margin-bottom: 2rem;
@@ -7406,7 +7541,7 @@ footer .footer_wrapper_down .footer_copyright p {
 }
 .auth-page__form {
   border-radius: 10px;
-  margin-top: 200px;
+  margin: 100px 0;
   padding: 20px;
   width: 400px;
   background: white;

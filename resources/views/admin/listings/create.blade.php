@@ -45,7 +45,7 @@
               <label class="form-label" for="state">State</label> 
               <select name="state" id="state"
                 class="form-control">
-                <option value="FL" @selected(old('state') == 'FL')>Florida</option>
+                <option value="TX" @selected(old('state') == 'TX')>Texas</option>
                 <option value="NY" @selected(old('state') == 'NY')>New York</option>
               </select>
               @error('state')

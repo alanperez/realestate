@@ -4,7 +4,7 @@
 
 <div class="single-listing-page">
     <div class="listing-top">
-      <img class="listing-top__img" src="https://images.dwell.com/photos/6405098978284392448/6466705949096243200/large.jpg">
+      <img class="listing-top__img" src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg">
       <div class="listing-top__form-wrapper">
         <div class="container">
           <form class="listing-top__form">
@@ -41,13 +41,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7">
-              <h1>23 Grand Ave<br>
-              Miami, FL 33456
+              <h1>8600 Thackery St<br>
+              Dallas, TX 75230
               </h1>
               <div class="listing-info__details">
-                <span class="listing-info__details-text"><i class="fa-solid fa-bed"></i> 4</span>
-                <span class="listing-info__details-text"><i class="fa-solid fa-bath"></i> 3</span>
-                <span class="listing-info__details-text"><i class="fa-solid fa-ruler"></i> 2440 SQFT</span>
+                <span class="listing-info__details-text"><i class="fa-solid fa-bed"></i> 5</span>
+                <span class="listing-info__details-text"><i class="fa-solid fa-bath"></i> 5.2</span>
+                <span class="listing-info__details-text"><i class="fa-solid fa-ruler"></i> 7260 SQFT</span>
               </div>
             </div>
             <div class="col-md-5">
@@ -65,20 +65,19 @@
             <div class="col-md-7">
               <div class="listing-extras__details">
                 <h2>More Info</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic, saepe quis iusto earum quo, tempora perferendis labore quia tenetur eaque odio, consectetur commodi eius blanditiis sed nostrum velit sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic, saepe quis iusto earum quo, tempora perferendis labore quia tenetur eaque odio, consectetur commodi eius blanditiis sed nostrum velit sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic, saepe quis iusto earum quo, tempora perferendis labore quia tenetur eaque odio, consectetur commodi eius blanditiis sed nostrum velit sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic, saepe quis iusto earum quo, tempora perferendis labore quia tenetur eaque odio, consectetur commodi eius blanditiis sed nostrum velit sint?</p>
+                <p>7260 Sq. Ft. / 2 Story Floorplan / 5 BR / 5.2 Bath / Formal Dining  / Front Courtyard Entry / Temperature Controlled  Wine Display with Glass Doors / Family Room + Study + Huge Game Room Media Combo+ Finished AC Flex Space / Stunning Design Elements throughout/ Elegant Kitchen with Professional Appliances / Butler’s Pantry / Master Retreat down with Oversized Closet / Utility Room / Large Covered Outdoor Living  w/ Outdoor Grill and Fireplace/ 4 Car Garage</p>
                 <h3>Details</h3>
                 <ul>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
-                  <li>Test</li>
+                  <li>Luxury Outdoor Kitchens and Living</li>
+                  <li>Lutron RadioRa2 Standard in Kitchen</li>
+                  <li>Structured Wiring Package</li>
+                  <li>Tella Firma Foundations</li>
+                  <li>Temperature Controlled Wine Rooms</li>
+                  <li>HERS Ratings from 51-55</li>
+                  <li>17 Seer Variable Speed HVAC</li>
+                  <li>Burgess 3rd Party Inspections</li>
+                  <li>2x6 Exterior Walls</li>
+                  <li>Owens Corning ComfortBuilt™ Program</li>
                 </ul>
               </div>
               
@@ -86,10 +85,10 @@
             <div class="col-md-5">
               <div class="listing-extras__gallery">
                 <h2>Images</h2>
-                <img src="https://images.dwell.com/photos/6405098978284392448/6466705949096243200/large.jpg" alt="">
-                <img src="https://images.dwell.com/photos/6405098978284392448/6466705949096243200/large.jpg" alt="">
-                <img src="https://images.dwell.com/photos/6405098978284392448/6466705949096243200/large.jpg" alt="">
-                <img src="https://images.dwell.com/photos/6405098978284392448/6466705949096243200/large.jpg" alt="">
+                <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg" alt="">
+                <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <img src="https://images.pexels.com/photos/6207947/pexels-photo-6207947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <img src="https://images.pexels.com/photos/7061663/pexels-photo-7061663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
               </div>
             </div>
           </div>

@@ -8,100 +8,74 @@
             </div>
         </div>
         <div class="footer_links">
-            <p>News</p>
+            <p>Find Your Homes</p>
             <ul>
                 <li>
                     <a href="#">
-                        <span>Airlines</span>
+                        <span>Quick Move-Ins</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Airports</span>
+                        <span>Find Homes By Area</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Events</span>
+                        <span>Communities</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Incidents</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>Cargo</span>
+                        <span>Floor Plans</span>
                     </a>
                 </li>
             </ul>
         </div>
         <div class="footer_links">
-            <p>Navigation</p>
+            <p>What We Offer</p>
             <ul>
                 <li>
                     <a href="#">
-                        <span>Home</span>
+                        <span>Custom Homes</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Contacts</span>
+                        <span>Townhomes & Villas</span>
                     </a>
                 </li>
-                @guest
+     
                 <li>
                     <a href="#">
-                        <span>Sign in</span>
+                        <span>Build Your Own Lot</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <span>Sign up</span>
-                    </a>
-                </li>
-                @endguest
-                @auth
-                <li>
-                    <a href="{{ route('logout') }}" onclick="event.preventDefault();
-                            document.getElementById('logout-form').submit();">
-                        <span>Logout</span>
-                    </a>
-                    <form action="{{ route('logout') }}" method="POST" id="logout-form" style="display: none;">
-                        @csrf
-                    </form>
-                </li>
-                @endauth
-                <li>
-                    <a href="javascript:void(0)" style="cursor: not-allowed;">
-                        <span>Search</span>
-                    </a>
-                </li>
+
             </ul>
         </div>
         <!--Popular posts-->
         <div class="footer_links">
-            <p>Legal</p>
+            <p>Contact</p>
             <ul>
                 <li>
                     <a href="#">
-                        <span>Disclaimer</span>
+                        <span>Contact Us</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Terms and Conditions</span>
+                        <span>Realtors</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Privacy Policy</span>
+                        <span>Warranty</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span>Cookie Policy</span>
+                        <span>Careers</span>
                     </a>
                 </li>
             </ul>
@@ -119,13 +93,13 @@
         </symbol>
         </svg>
         <div class="footer_copyright">
-            <p>&#169;{{ date('Y') }} - Dallas Builders - Made with 
-                <button class="iconbutton">
+            <p>&#169;{{ date('Y') }} - Dallas Builders 
+                <!-- <button class="iconbutton">
                     <svg class="icon icon--heart">
                     <use xlink:href="#icon-heart"></use>
                     </svg>
-                </button>
-                for a better web
+                </button> -->
+              
             </p>
         </div>
         <div class="footer_feedback">
