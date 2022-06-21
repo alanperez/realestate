@@ -7,6 +7,7 @@
       <h1 class="listings-city__title">Available Homes</h1>
     </div>
     <div class="listings-filter">
+  
       <div class="listings-filter__wrapper">
         <div class="listings-filter__option">
           Any Price <i class="fa-solid fa-caret-down"></i>
@@ -39,8 +40,7 @@
                 <span class="listings-properties__item-price">$250,000</span>
                 <span class="listings-properties__item-details"><i class="fa-solid fa-bed"></i> 4 <i class="fa-solid fa-bath"></i> 3 <i class="fa-solid fa-ruler"></i> 7260 SQFT</span>
                 <span class="listings-properties__item-address">
-                  2135 Grand St,<br>
-                  Miami Beach, FL 23456
+
                 </span>
                 <div class="listings-properties__item-line"></div>
                 <span class="listings-properties__item-owner">
